@@ -10,4 +10,5 @@ It’s not here to hold your hand or make you feel warm and fuzzy about learning
 
 So yeah, that’s WeatherWolf. The Python extension for people who’d rather skip the snooze fest and get straight to the good part. No frills, no fairy tales—just a shortcut past the basics so you can start coding like you mean it.
 
-how to install: pip install Improved-HelloWorld
+how to install: pip install improved_hello_world
+
