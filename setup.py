@@ -7,8 +7,8 @@ if os.path.exists('README.md'):
             long_description = f.read()
 
 setup(
-    name='improved_hello_world',
-    version='0.3',
+    name='improved_helloworld',
+    version='0.2',
     packages=find_packages(),
     install_requires=[],
     entry_points={
