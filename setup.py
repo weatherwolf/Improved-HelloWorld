@@ -9,11 +9,11 @@ if os.path.exists('README.md'):
 setup(
     name='improved_helloworld',
     version='0.3',
-    packages=find_packages(),
+    packages=find_packages(include=['improved_helloworld']),
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'weatherwolf=weatherwolf.__main__:main'
+            'helloworld=improved_helloworld.helloworld:print_hello_world'
         ]
     },
     author='WeatherWolf',
