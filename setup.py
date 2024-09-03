@@ -13,7 +13,7 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'helloworld=improved_helloworld.helloworld:print_hello_world'
+            'hello_world=improved_helloworld.hello_world:main'
         ]
     },
     author='WeatherWolf',
